@@ -65,7 +65,6 @@ import io.plaidapp.core.util.event.EventObserver
 import io.plaidapp.search.R
 import io.plaidapp.search.dagger.Injector
 import io.plaidapp.search.ui.transitions.CircularReveal
-import io.plaidapp.ui.PlaidApplication
 import javax.inject.Inject
 
 /**
@@ -109,7 +108,7 @@ class SearchActivity : AppCompatActivity() {
 
         Injector.inject(this)
 
-        feedAdapter = FeedAdapter(this, columns, pocketInstalled, ColorUtils.isNightMode(this))
+        feedAdapter = FeedAdapter(this, columns, pocketInstalled, ColorUtils.isDarkTheme(this))
 
         viewModel.searchResults.observe(this, EventObserver { searchUiModel ->
             if (searchUiModel.items.isNotEmpty()) {
