@@ -32,7 +32,6 @@
     <color name="text_primary_light">#ffffffff</color>
     <color name="text_secondary_light">#b3ffffff</color> <!-- 70% -->
     <color name="text_disabled_light">#4dffffff</color> <!-- 30% -->
-    <color name="ripple_light">#99ffffff</color>
     <color name="ripple_dark">@color/mid_grey</color>
     <color name="background_light">#fafafa</color> <!-- grey 50 -->
     <color name="background_dark">#ff333333</color>

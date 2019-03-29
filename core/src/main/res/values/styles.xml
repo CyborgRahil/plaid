@@ -127,4 +127,13 @@
         <item name="titleInsetBottom">@dimen/padding_normal</item>
         <item name="android:maxLines">5</item>
     </style>
+
+    <style name="ThemeOverlay.Plaid" parent="" />
+
+    <!-- This won't be needed when we move creation of DN items into the dn module and
+         can set the correct theme -->
+    <style name="ThemeOverlay.Plaid.DesignerNews" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorOnPrimary">#ffffff</item>
+    </style>
+
 </resources>

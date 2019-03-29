@@ -148,7 +148,6 @@
                     android:padding="@dimen/spacing_micro"
                     android:stateListAnimator="@animator/raise"
                     android:text="@string/new_story_post"
-                    android:textAppearance="@style/TextAppearance.Button"
                     android:theme="@style/PlaidDarkOverlay" />
 
             </LinearLayout>
